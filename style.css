@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.game {
+    width: 96%;
+    min-height: 720px;
+    margin: 15px auto;
+    border: 3px solid black;
+    text-align: center;
+}
+
+h1 {
+    margin: 30px 0 10px;
+    font-size: 42px;
+}
+
+#start {
+    background: #ef5b82;
+    color: white;
+    padding: 12px 25px;
+    font-size: 21px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+#message {
+    color: #4c398b;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.players {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15%;
+    margin-top: 30px;
+}
+
+.player {
+    width: 30%;
+}
+
+.player h2 {
+    font-size: 24px;
+}
+
+.player img {
+    display: block;
+    width: 230px;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+#split {
+    background: #18aaa0;
+    color: white;
+    padding: 12px 28px;
+    font-size: 21px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#result {
+    color: #4c398b;
+    font-size: 30px;
+    font-weight: bold;
+}
